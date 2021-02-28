@@ -12,6 +12,23 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.button {
+  background-color: #253E66;
+  color: white;
+  padding: 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  font-size: 16px;
+  border-radius: 2%;
+  transition-duration: 0.8s;
+}
+
+.button:hover {
+  background-color: #253E66; 
+  color: white;
+}
 
 .App-header {
   background-color: #282c34;
@@ -22,6 +39,16 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.dash-board {
+  padding: 3%;
+  border: 2px solid grey;
+  border-radius: 7%;
+}
+
+.divider {
+  border: 1px solid grey;
 }
 
 .App-link {

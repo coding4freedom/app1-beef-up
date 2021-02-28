@@ -6,14 +6,19 @@ import RunningText from './Components/RunningTextComponent';
 function App() {
   // setting up useState
   const [userInput, setUserInput] = useState('');
+  const [userCaptures, setUserCaptures] = useState([]);
 
    
 
   return (
-    <div className="App">
+    <div 
+      className="App App-header"
+    >
       <RunningText 
         setUserInput={setUserInput}
-        userInput={userInput}        
+        userInput={userInput}
+        userCaptures={userCaptures}
+        setUserCaptures={setUserCaptures}                
       />
     </div>
   );
